@@ -1,0 +1,24 @@
+{
+  "name": "Writing-Tests-TDD-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaikens19/Writing-Tests-TDD-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaikens19/Writing-Tests-TDD-Project/issues"
+  },
+  "homepage": "https://github.com/jaikens19/Writing-Tests-TDD-Project#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0"
+  }
+}
