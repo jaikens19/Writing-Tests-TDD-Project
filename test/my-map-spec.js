@@ -26,7 +26,7 @@ describe('myMap()', () => {
     it('should not call Array.map', () => {
         const arrayMapSpy = chai.spy.on(arr, 'map')
         myMap(arr, cb)
-        expect(arrayMapSpy).to.not.have.been.called.once
+        expect(arrayMapSpy).to.not.have.been.called()
     })
     it('should call the callback once for each element', () => {
         const cbSpy = chai.spy(cb)
